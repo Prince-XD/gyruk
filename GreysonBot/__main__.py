@@ -75,60 +75,60 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello there, I am *Greyson* - I'm here to help you to manage your chats with ease. 
+Merhaba, ben *DOGE* - Sohbetlerinizi kolaylıkla yönetmenize yardımcı olmak için buradayım. 
 
-➡️ Just add me in your group as admin .
+➡️ Beni grubunuza yönetici olarak eklemeniz yeterli
 
-Hit /help to know my commands .
+Komutlarımı öğrenmek için /help'e basın.
 
-You can get my news everyday at @GraysonNews .
+Haberlerimi her gün @Turkcbot'dan alabilirsiniz.
 
-Use the /privacy command to view the privacy policy, and interact with your data.
+Gizlilik politikasını görüntülemek ve verilerinizle etkileşim kurmak için /privacy komutunu kullanın..
 """
 G_START_TEXT = """
-Hello Greyson here , How can I help you ?
+Merhaba ben doge, Size nasıl yardımcı olabilirim? ?
 """
 GREYSON_HOME_TEXT = """
-*Excellent!* \nNow the Bot is ready to use!\n\nUse /help to Know all modules and features
-`All commands can be used with / ? or !`
+*Mükemmel!* \nBot artık kullanıma hazır!\n\nTüm modülleri ve özellikleri bilmek için /help kullanın
+`Tüm komutlar /? ile kullanılabilir. veya !`
 """
-SOURCEG_STRING = """Oh you want my source . I am built in python 3 , Using the python-telegram-bot library, and am fully open source .
-\nDon't forgot to fork 🍴 and star 🌟 the repo . \n\nCheck my source below 👇 \n⚙️ Source ⚙️ - [Click here](https://github.com/Kunal-Diwan/GreysonBot)"""
+SOURCEG_STRING = """Oh, kaynağımı istiyorsun. telegram-bot kitaplığını kullanarak python 3'te yerleşikim ve tamamen hazırım \ngruba katılıp 🍴  paylaşmayı unutmayın bide🌟 koymayı unutmayın. \n\nsahibimi aşağıdan kontrol edin 👇 \n⚙️ SAHİBİM⚙️ - [Burayı tıklayın](@turkcbot)"""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Grayson to chat!  ➕️", url="t.me/MrGreysonBot?startgroup=true"),
+            text="➕️ ➕️ Sohbete dogeyi ekleyin! ➕️ ➕️", url="http://t.me/doge_vbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📚 Guide 📚", callback_data="guidemenu_"),
+        InlineKeyboardButton(text="📚 Kılavuz 📚", callback_data="guidemenu_"),
         InlineKeyboardButton(text="⚒️ Support 🛠", callback_data="support_"),
     ],
     [
         InlineKeyboardButton(
-            text="🎥 Configuration Tutorial 🎥", callback_data="tutmanu_"
+            text="🎥 Yapılandırma Eğitimi 🎥", callback_data="tutmanu_"
         ),
     ],
 ]
 
-gbuttons = [[InlineKeyboardButton(text="⚙️ help ⚙️",
-                                  url="http://t.me/MrGreysonBot?start=help")]]
+gbuttons = [[InlineKeyboardButton(text="⚙️ yardım ⚙️",
+                                  url="http://t.me/doge_vbot?start=help")]]
 
-videobuttons = [[InlineKeyboardButton(text="✅ Done ✅",
+videobuttons = [[InlineKeyboardButton(text="✅ Tamamlandı ✅",
                                   callback_data="tutmanu_home")]]
 
 HELP_STRINGS = """
-*Help*
-Hey! My name is Greyson . I am a group management bot, here to help you get around and keep the order in your groups!
+*Yardım*
+ Merhaba! Benim adım doge.
+ 
+Ben bir grup yönetimi botuyum, gruplarınızda dolaşmanıza ve düzeni korumanıza yardımcı olmak için buradayım!
+ Taşkın kontrolü, uyarı sistemi, not tutma sistemi ve hatta belirli anahtar kelimelere önceden belirlenmiş yanıtlar gibi birçok kullanışlı özelliğim var.
 
-I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
+*Yararlı komutlar*:
+✪ /start: Beni başlatır! Muhtemelen bunu zaten kullandınız. 
+✪ /help: Bu mesajı gönderir; Sana kendimden daha fazlasını anlatacağım! 
+✪ /source: Size benim kaynağımı verir.
 
-*Helpful commands* :
-✪ /start: Starts me! You've probably already used this. 
-✪ /help: Sends this message; I'll tell you more about myself!
-✪ /source: Gives you my source .
-
-If you have any bugs or questions on how to use me head to @GreysonChats. \n\nAll commands can be used with the following: / !\n\nAnd the following :-"""
+Beni nasıl kullanacağınıza dair herhangi bir hatanız veya sorunuz varsa @turkcbot'a gidin. \n\nTüm komutlar aşağıdakilerle kullanılabilir: / !\n\nVe aşağıdakilerle:-"""
 
 GreysonG_IMG = "https://telegra.ph/file/83dbae46536c4f88a28b7.jpg"
 
